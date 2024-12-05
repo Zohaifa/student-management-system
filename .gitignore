@@ -1,1 +1,46 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment directories
 venv/
+env/
+.venv/
+
+# Django-specific files
+*.log
+*.sqlite3
+db.sqlite3
+*.pot
+*.pyc
+*.pyo
+
+# IDE-specific files (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Operating System files
+Thumbs.db  # Windows
+
+# Other files to ignore
+*.env  
+*.bak  
+
+# Ignore the collected static files
+/static/
+
+# Ignore local media uploads
+/media/
+
+# Ignore compiled/processed files (like JavaScript bundles or CSS)
+node_modules/
+*.log
+*.bak
+*.swp
+*.css
+*.js
+
+# Optional: Ignore other common files
+.DS_Store
+Thumbs.db
